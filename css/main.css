@@ -6,45 +6,25 @@
     background-color: red;
     border: 4px solid black;
     height: 100px;
+  
   }
 
   .rectangulo-azul {
-    width: 25%;
     height: 100px; /* Puedes ajustar la altura según tus necesidades */
     background-color: blue;
     border: 4px solid black;
-    margin-right: 10px; /* Ajusta el margen derecho según tu preferencia */
-    margin-top:10px ;
   }
 
   .rectangulo-verde {
-    width: 75%;
-    height: 100px; /* Puedes ajustar la altura según tus necesidades */
+   height: 100px; /* Puedes ajustar la altura según tus necesidades */
     background-color: green;
     border: 4px solid black;
-    margin-top:10px ;
   }
+.col-sm-12
+{
+  height:100px;
+}
 
-  /* Estilos para cuando la pantalla se achica */
-  @media (max-width: 600px) {
-    .contenedor {
-      flex-direction: column;
-    }
-
-    .rectangulo-azul {
-      width: 100%;
-      height: 50px; /* Puedes ajustar la altura para "xs" según tus necesidades */
-      margin-right: 0; /* Elimina el margen derecho en pantallas pequeñas */
-      margin-top:10px ;
-    }
-
-    .rectangulo-verde {
-      width: 100%;
-      height: 50px; /* Puedes ajustar la altura para "xs" según tus necesidades */
-      margin-top:10px ;
-    }
-    .rectangulo-rojo {
-      width: 100%;
-      height: 50px; /* Puedes ajustar la altura para "xs" según tus necesidades */
-    }
-  }
+.custom-height {
+  height: 100px;
+}
